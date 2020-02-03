@@ -1,0 +1,13 @@
+/*Ну, собсно бэкраунд */ 
+.colorful {
+  background:
+    -webkit-linear-gradient(315deg, hsla(35, 31.1%, 95.17%, 1) 0%, hsla(35, 31.1%, 95.17%, 0) 70%),
+    -webkit-linear-gradient(65deg, hsla(172.08, 100%, 92.23%, 1) 10%, hsla(172.08, 100%, 92.23%, 0) 80%),
+    -webkit-linear-gradient(135deg, hsla(149.43, 50.24%, 51.13%, 1) 15%, hsla(149.43, 50.24%, 51.13%, 0) 80%),
+    -webkit-linear-gradient(205deg, hsla(176.6, 43.09%, 70.06%, 1) 100%, hsla(176.6, 43.09%, 70.06%, 0) 70%);
+  background:
+    linear-gradient(135deg, hsla(35, 31.1%, 95.17%, 1) 0%, hsla(35, 31.1%, 95.17%, 0) 70%),
+    linear-gradient(25deg, hsla(172.08, 100%, 92.23%, 1) 10%, hsla(172.08, 100%, 92.23%, 0) 80%),
+    linear-gradient(315deg, hsla(149.43, 50.24%, 51.13%, 1) 15%, hsla(149.43, 50.24%, 51.13%, 0) 80%),
+    linear-gradient(245deg, hsla(176.6, 43.09%, 70.06%, 1) 100%, hsla(176.6, 43.09%, 70.06%, 0) 70%);
+  }
