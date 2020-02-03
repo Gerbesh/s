@@ -40,3 +40,13 @@ body {
     margin-bottom: 5px;
     z-index: 2
   }
+@media screen and (max-width: 980px) {
+  .main {
+   margin-left: 10%;
+   margin-right: 10%;
+}
+   body {
+    background-color: blue;
+  }
+
+}
