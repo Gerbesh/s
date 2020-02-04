@@ -1,10 +1,7 @@
 /*Ну, собсно бэкраунд */
 body {
-  background:
-    -webkit-linear-gradient(315deg, hsla(295.85, 95.37%, 49.98%, 1) 0%, hsla(295.85, 95.37%, 49.98%, 0) 70%),
-    -webkit-linear-gradient(65deg, hsla(126.68, 93.82%, 42.29%, 1) 10%, hsla(126.68, 93.82%, 42.29%, 0) 80%),
-    -webkit-linear-gradient(135deg, hsla(117.17, 90.23%, 46.69%, 1) 15%, hsla(117.17, 90.23%, 46.69%, 0) 80%),
-    -webkit-linear-gradient(205deg, hsla(12.87, 93.13%, 44.97%, 1) 100%, hsla(12.87, 93.13%, 44.97%, 0) 70%);
+  background: rgb(22,196,95);
+  background: linear-gradient(145deg, rgba(22,196,95,1) 1%, rgba(177,217,226,1) 29%, rgba(44,249,239,1) 56%, rgba(149,85,244,1) 69%, rgba(222,0,255,1) 92%);
     height: 100%;
     width: 100%;
     position: absolute;
