@@ -1,7 +1,8 @@
 /*Ну, собсно бэкраунд */
 body {
-  background: rgb(22,196,95);
-  background: linear-gradient(145deg, rgba(22,196,95,1) 1%, rgba(177,217,226,1) 29%, rgba(44,249,239,1) 56%, rgba(149,85,244,1) 69%, rgba(222,0,255,1) 92%);
+    background: rgb(22,196,95);
+    background: linear-gradient(145deg, rgba(22,196,95,1) 1%, rgba(177,217,226,1) 29%, rgba(44,249,239,1) 56%, rgba(149,85,244,1) 69%, rgba(222,0,255,1) 92%);
+    background: -webkit-linear-gradient(145deg, rgba(22,196,95,1) 1%, rgba(177,217,226,1) 29%, rgba(44,249,239,1) 56%, rgba(149,85,244,1) 69%, rgba(222,0,255,1) 92%);
     height: 100%;
     width: 100%;
     position: absolute;
