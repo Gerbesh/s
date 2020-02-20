@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="images/icon.png" type="image/png">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <title>Регистрация нового пользователя</title>
+</head>
+<body>
+  <div class="header"><h1><span class="center">форма регистрации</h1></div>
+    <div class="reg">
+      <form action="validation/check.php" method ="post">
+        <input type="text" class="form-control" name="login"
+        id="login"  placeholder="Введите логин"> <br>
+        <input type="text" class="form-control" name="name"
+        id="name"  placeholder="Введите Имя"> <br>
+        <input type="password" class="form-control" name="password"
+        id="password"  placeholder="Введите Пароль"> <br>
+        <button class="regbutton" type="submit">Зарегистрироваться</button>
+      </form>
+      <img src="images/back.png" onclick="goBack()"  class="gback"></img>
+      <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  </div>
+</body>
+</html>
